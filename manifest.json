@@ -1,0 +1,16 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "AliExpress Similar Items",
+  "description": "Opens a new tab with similar items on AliExpress",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
